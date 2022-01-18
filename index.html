@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html ⚡>
 
@@ -27,12 +28,90 @@
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
   <link rel="canonical" href="https://preview.amp.dev/documentation/components/amp-video.example.1.html">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style><noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175456279-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175456279-1');
+  </script>
 
 
 </head>
+
 
 <body id="page-top">
 
@@ -40,7 +119,8 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">Hello!</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
@@ -53,19 +133,22 @@
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#about">About</a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Talks</a>
+            <a class="nav-link js-scroll" href="#bootcamp">Bootcamp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#talks">Talks</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Gallery</a>
+            <a class="nav-link js-scroll" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
           </li>
+
         </ul>
       </div>
     </div>
@@ -78,12 +161,14 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p> -->
           <h4 class="intro-title mb-4">I'm Lakshya Sivaramakrishnan</h4>
-          <p class="intro-subtitle"><span class="text-slider-items">Program Lead,  Tech Evangelist, Data Science Enthusiast, Diversity and Inclusion Advocate</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">Technical Program Manager, Founder - Prayogshaala, Tech
+              Evangelist, Diversity and Inclusion Advocate, TEDx Speaker</span><strong class="text-slider"></strong></p>
 
-          <ul class="list-unstyled list-social" >
+          <ul class="list-unstyled list-social">
             <li><a href="https://github.com/lakshya90/" target="_blank"><i class="ion-social-github"></i></a></li>
             <li><a href="https://twitter.com/lakshyas90" target="_blank"><i class="ion-social-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/lakshyasi/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lakshyasi/" target="_blank"><i class="ion-social-linkedin"></i></a>
+            </li>
           </ul>
 
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
@@ -104,7 +189,8 @@
                 About me
               </h3>
               <p class="subtitle-a">
-                Program Lead, Tech Evangelist, Data Science Enthusiast, Diversity and Inclusion Advocate
+                I realise my four pillars of interest through these roles: Technical Program Manager, 
+                Tech Evangelist, Founder of Prayogshaala, Diversity and Inclusion Advocate
               </p>
               <div class="line-mf"></div>
             </div>
@@ -117,57 +203,66 @@
                 <span class="ico-circle"><i class="ion-woman"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Diversity, Equity and Inclusion</h2> <br/>
+                <h2 class="s-title">Diversity, Equity and Inclusion</h2> <br />
                 <p class="s-description text-center">
                   Researched and built strategies for diversity, equity and inclusion for women in technology in India.
-                  Developed my network with various women in tech communities, D&I champions and organisations supporting
-                  women in tech in India. As Verna Meyers says, "Diversity is being invited to the party. Inclusion is being asked
+                  Developed my network with various women in tech communities, D&I champions and organisations
+                  supporting
+                  women in tech in India. As Verna Meyers says, "Diversity is being invited to the party. Inclusion is
+                  being asked
                   to dance."
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-3" >
-            <div class="service-box" >
+          <div class="col-md-3">
+            <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-code"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Data Science and Machine Learning</h2>
                 <p class="s-description text-center">
-                  Received the 'Women in AI Leadership 2020' award by Analytics India Magazine and completed the 'GE Analytics Engineer Certification' in 2016. Interested in hackathon participation and various certifications in topics of interest.
+                  Received the 'Women in AI Leadership' Award by Analytics India Magazine in 2020 and completed the 'GE
+                  Analytics Engineer Certification' in 2016. Interested in hackathon participation and various
+                  certifications in topics of interest.
                   As W. Edwards Deming says,
                   "Without data, you're just another person with an opinion."
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-3" >
-            <div class="service-box" >
+          <div class="col-md-3">
+            <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-ios-people"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Leadership</h2>
-                <p class="s-description text-center"><br/><br/>
-                  Recognised with the 'Lead Like A Girl 2020' fellowship. Over the last three years, I have been managing projects, programs and people. My strength lies in
-                  adding some method to the madness and practicing empathetic leadership. As Peter Drucker says, "Management is
+                <p class="s-description text-center"><br /><br />
+                  Recognised with the 'Lead Like A Girl 2020' fellowship. I have been managing projects, programs and
+                  people. My strength lies in
+                  adding some method to the madness and practicing empathetic leadership. A certified #IAmRemarkable
+                  facilitator. As Peter Drucker says, "Management is
                   doing things right; Leadership is doing the right things."
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-3" >
-            <div class="service-box" >
+          <div class="col-md-3">
+            <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-social-tux"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Community Building</h2><br/>
+                <h2 class="s-title">Community Building</h2><br />
                 <p class="s-description text-center">
-                  Involved with various tech communities in India for over a decade now with about five years of experience
-                  in building, nurturing and scaling communities. I have received a lot from communities and am striving to find ways to pay it forward. As Helen Keller says, "Alone, we can do so little; together, we can do so much!".
-<br/><br/>
+                  Involved with various tech communities in India for over a decade now with about five years of
+                  experience
+                  in building, nurturing and scaling communities. I have received a lot from communities and am striving
+                  to find ways to pay it forward. As Helen Keller says, "Alone, we can do so little; together, we can do
+                  so much!".
+                  <br /><br />
                 </p>
               </div>
             </div>
@@ -177,10 +272,622 @@
       </div>
     </section><!-- End Services Section -->
 
+    <!-- ======= Bootcamp Section ======= -->
+    <section id="bootcamp" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
 
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Prayogshaala
+              </h3>
+              <p class="subtitle-a">
+                One week online bootcamp to nurture young women in technology
+              </p>
+              <div class="line-mf"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+
+                <amp-img alt="Prayogshaala" src="assets/img/3.png" width="1000" height="400" layout="responsive">
+                </amp-img>
+                <div>
+                  <p class="pt-3">
+                    <center><a class="btn btn-primary btn js-scroll px-4" href="https://forms.gle/FFiW6XY3FceGWELXA"
+                        target="_blank" role="button">REGISTER NOW</a></center>
+                  </p>
+                </div>
+                <br /><br />
+              </div>
+              <div class="col-md-6">
+
+                <p class="lead responsive">
+                  Prayogshaala aims to provide <span style="color:#0078ff">tech and applied skills education</span> for
+                  engineering college girls in India through a one week
+                  online bootcamp to help them thrive in the technology industry.
+
+
+                </p>
+                <p class="lead responsive">
+                  Selected participants will have an opportunity to enhance their skills on <span
+                    style="color:#0078ff">leadership, communication, personal branding and
+                    technology</span>.
+                </p>
+
+                <p class="lead responsive">
+                  For more queries, feel free to mail us at <a href="mailto:writetoprayogshaala@gmail.com"
+                    style="color:#0078ff">writetoprayogshaala@gmail.com</a>.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <div class="row">
+
+                  <div class="col-md-2">
+                    <div class="author-test ">
+                      <amp-img src="assets/img/lakshya.jpg" width="100" height="100"
+                        class="img-fluid rounded-circle b-shadow-a" alt="Lakshya" layout="responsive"></amp-img>
+                      <span class="lead responsive" style="color:#0078ff">
+                        <center>Lakshya <br />
+                          <span class="w-ctegory" style="color:#000">
+                            <bold> Creator<br /></bold>
+                          </span>
+                          <div class="socials">
+                            <ul>
+                              <li><a href="https://www.linkedin.com/in/lakshyasi/" target="_blank"><span
+                                    class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </center>
+                      </span>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-md-2">
+                    <div class="author-test ">
+                      <amp-img src="assets/img/arya.jpeg" width="100" height="100"
+                        class="img-fluid rounded-circle b-shadow-a" alt="Arya" layout="responsive"></amp-img>
+                      <span class="lead responsive" style="color:#0078ff">
+                        <center>Arya <br />
+                          <span class="w-ctegory" style="color:#000">
+                            <bold> Advisor<br /></bold>
+                          </span>
+                          <div class="socials">
+                            <ul>
+                              <li><a href="https://www.linkedin.com/in/aryamurali/" target="_blank"><span
+                                    class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </center>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="author-test ">
+                      <amp-img src="assets/img/sukriti.jpeg" width="100" height="100"
+                        class="img-fluid rounded-circle b-shadow-a" alt="Sukriti" layout="responsive"></amp-img>
+                      <span class="lead responsive" style="color:#0078ff">
+                        <center>Sukriti <br />
+                          <span class="w-ctegory" style="color:#000">
+                            <bold> Advisor</bold>
+                          </span>
+                          <div class="socials">
+                            <ul>
+                              <li><a href="https://www.linkedin.com/in/sukriti-paul-72a115126/" target="_blank"><span
+                                    class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </center>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="author-test ">
+                      <amp-img src="assets/img/varsha.jpg" width="100" height="100"
+                        class="img-fluid rounded-circle b-shadow-a" alt="Varsha" layout="responsive"></amp-img>
+                      <span class="lead responsive" style="color:#0078ff">
+                        <center>Varsha <br />
+                          <span class="w-ctegory" style="color:#000">
+                            <bold> Advisor</bold>
+                          </span>
+                          <div class="socials">
+                            <ul>
+                              <li><a href="https://www.linkedin.com/in/varshajaiswal/" target="_blank"><span
+                                    class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </center>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="author-test ">
+                      <amp-img src="assets/img/divya.jpeg" width="100" height="100"
+                        class="img-fluid rounded-circle b-shadow-a" alt="Divya" layout="responsive"></amp-img>
+                      <span class="lead responsive" style="color:#0078ff">
+                        <center>SreeDivya <br />
+                          <span class="w-ctegory" style="color:#000">
+                            <bold> Advisor</bold>
+                          </span>
+                          <div class="socials">
+                            <ul>
+                              <li><a href="https://www.linkedin.com/in/vpsreedivya/" target="_blank"><span
+                                    class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </center>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Prayogshaala Testimonials
+              </h3>
+              <p class="subtitle-a">
+                Attendees sharing their experiences and project reports as videos, blogs, articles etc.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-3">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="d-l8ZMvz0Z0" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Jaya Preethi </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Prayogshaala Experiences</span> <br /> <span class="w-date">30 Sep.
+                        2020</span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="t-3ZvNb-u9k" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Vipula Vivek Sail </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Prayogshaala Experiences</span> <br /> <span class="w-date">5 Oct.
+                        2020</span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="h_PQQ9e_-6s" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Arya Reddy </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Prayogshaala Experiences</span> <br /> <span class="w-date">8 Oct.
+                        2020</span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="XHFEqaISec0" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Aafreen </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Prayogshaala Experiences</span> <br /> <span class="w-date">29 Oct.
+                        2020</span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+
+
+        
+
+          <div class="col-md-12">
+
+            <div class="title-box text-center">
+              
+              <p class="subtitle-a">
+                <b>Articles shared by the participants on their bootcamp experience</b>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+
+
+            <amp-carousel width="50" height="50" type="carousel" layout="fixed-height" controls loop autoplay
+              delay="3000">
+              <div class="owl-carousel owl-theme services-carousel">
+
+                
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/madhu.jpg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"><a
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:6722394628106145792/"
+                        target="_blank"> Madhura's<br /> bootcamp<br /> experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/aafreen.jpg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"><a
+                        href="https://aafreen1804.medium.com/prayogshaala-bootcamp-my-experience-9a1cc0912fb2"
+                        target="_blank"> Aafreen's<br /> bootcamp<br /> experience </a></span>
+
+
+                  </div>
+                </div>
+
+
+                
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/swe.jpg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"> <a
+                        href="https://drive.google.com/file/d/17lKI8DDWlDlWcGLZCi3pOB5UzFgq68Tk/view?usp=sharing"
+                        target="_blank"> Swelia's <br /> bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/sheethal.jpg" width="400" height="300" layout="responsive"
+                      class="img-fluid"></amp-img>
+                    <span align="center"> <a href="https://sheethalp13.wixsite.com/my-website/post/__xxx"
+                        target="_blank"> Sheethal's <br /> bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/mitali.jpg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"> <a
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:6734472735117873152/"
+                        target="_blank"> Mitali's <br />bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/dj.PNG" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"> <a
+                        href="https://chinera-dj.medium.com/the-prayogshaala-bootcamp-experience-25277dc268e5"
+                        target="_blank"> Divyajyoti's <br />bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/anu.jpg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"> <a
+                        href="https://www.linkedin.com/posts/anushka-sen-07a91b1b1_iamremarkable-activity-6728371187820457984-wGdq"
+                        target="_blank"> Anushka's<br /> bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    <amp-img src="assets/img/anusha.jpeg" width="400" height="300" layout="responsive" class="img-fluid">
+                    </amp-img>
+                    <span align="center"> <a
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:6736539048208302080/"
+                        target="_blank"> Anusha's<br /> bootcamp <br />experience </a></span>
+
+
+                  </div>
+                </div>
+
+
+                
+
+
+
+
+              </div>
+
+            </amp-carousel>
+          </div>
+
+          <br/><br/><br/><br/>
+
+          <div class="col-md-12">
+
+            
+              <div class="title-box text-center">
+              
+                <p class="subtitle-a">
+                  <b>Projects created by the participants as part of the bootcamp</b>
+                </p>
+                <div class="line-mf"></div>
+              </div>
+           
+            <amp-carousel width="50" height="50" type="carousel" layout="fixed-height" controls loop autoplay
+              delay="3000">
+              <div class="owl-carousel owl-theme services-carousel">
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://docs.google.com/document/d/1M4RBxGn7NVXn2R1_jLCOgd3wWxSDwe2qLfnrs4AoPKs/edit?usp=sharing"
+                        target="_blank"> Preethi & <br/>Vipula's <br />HerAlerts </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://docs.google.com/document/d/15rGYcbt5G0fzuVpgaLzrCQRKzLrplCAM114uICfvvoU/edit?usp=sharing"
+                        target="_blank">Ananya & <br/> Swelia's <br />Chatbot </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href=" https://github.com/AryaReddy/To-Do-list"
+                        target="_blank">Arya & Chaitra's <br />To-do-list </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://github.com/malavikasmenon/weather-app"
+                        target="_blank">Malavika & <br/> Varshitha's <br />Weather App </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://docs.google.com/presentation/d/1q-AxQRkAtjgr2wNFGitLX_YRpXFB9jc4lGoSWbvnF-I/edit?usp=sharing"
+                        target="_blank">Divyajyoti <br/> & Theerdha's <br />Chatbot </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://github.com/sarah2198/Online-Super-Market"
+                        target="_blank">Diffa, Tejasi <br/> & Sarah's <br/>Fresh Mart </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://github.com/anushavc/jewellery_site"
+                        target="_blank">Mitali & <br/>Anusha's <br />Jewellery Site </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://drive.google.com/file/d/1D7dZfsR3K1XeV9O2fNxjTb20ysHPBwbI/view"
+                        target="_blank">Yashika & <br/> Suvetha's <br />Hospital <br/>Info Site </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://docs.google.com/document/d/1uzh5H2VfKa1UeWVUYFb5SEQLN1X03xj1ikiNDlUeZ7s/edit?usp=sharing"
+                        target="_blank">Ankita & <br/> Sonalika's <br />HustleApp </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://archana-1209.github.io/Currency-converter/"
+                        target="_blank">Archana & <br/> Sreelakshmi's <br />Currency <br/>Convertor </a></span>
+
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://docs.google.com/document/d/1mHcHAkCzDRZvlf0His5_unv_fJKAtztrPn-MElAqZqo/edit"
+                        target="_blank">Aafreen, Deepa <br/>  & Masha's <br/> Jordan </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://drive.google.com/file/d/1m-dr7c_PKN6fYvl678Ri_oZ99nudQk0m/view?usp=sharing"
+                        target="_blank">Anushka & <br/> Vibha's <br />To-do-list </a></span>
+
+
+                  </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="services-block">
+
+                    
+                    <span align="center"><a
+                        href="https://github.com/riddhisiddarkar/Markdown-Reader"
+                        target="_blank">Riddhi & <br/> Vaishnavi's <br />Markdown Reader </a></span>
+
+
+                  </div>
+                </div>
+
+                
+
+
+
+
+
+
+              </div>
+
+            </amp-carousel>
+          </div>
+
+        </div>
+
+
+      </div>
+      </div>
+
+      </div>
+
+      </div>
+
+      </div>
+      </div>
+
+
+      </div>
+      </div>
+    </section><!-- End Bootcamp Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
+    <section id="talks" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -198,286 +905,450 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-                <div class="">
-                  <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" target="_blank">
-                  <amp-img
-                          alt="Unconscious Bias Training"
-                          src="assets/img/work-9.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Unconscious Bias Training</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">What, Why and How of Unconscious Bias </span> <br> <span class="w-date">31 Jan. 2020</span>
-                      </div>
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/1atrBnaW62oZF51r0rYMmUdKR0SfwjNQhOULyJQW8Ss8/edit?usp=sharing"
+                  target="_blank">
+                  <amp-img alt="Fairness in Machine Learning" src="assets/img/fairness.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Fairness in Machine Learning</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Understanding the biases in machine learning </span> <br> <span
+                        class="w-date">19 Sep. 2020</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
                     </div>
                   </div>
                 </div>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/15xs2-_obz6d7TSXOuXSQ07LVCQYsdbgtb8MOCj95gSo/edit?usp=sharing"
+                  target="_blank">
+                  <amp-img alt="Women and Communities" src="assets/img/py_di.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Women and Communities
+                    </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Talk at PyCon India 2020 - D&I Track </span> <br> <span class="w-date">2
+                        Oct. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="t3wSsmRLxXQ" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">TEDx IIIT Bangalore Speaker </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Leverage the power of communities</span> <br /> <span class="w-date">5
+                        Sep. 2020</span>
+
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-videocam"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/1Diy7U5K6T6oE9R4Yg2_szrW-2w32hT7HP4poqEUxoWY/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="No code app development" src="assets/img/appsheet.png" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Appsheet by Google Cloud</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">No-code application development to develop applications at scale </span>
+                      <br> <span class="w-date">08 Aug. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/14KucpoeEY4xkwojnhOpTynzUBKE4d06C97q_6jRyljw/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Structuring Great Technical Presentations" src="assets/img/sgp.jpg" width="480"
+                    height="270" layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Structuring a Great Technical Presentation
+                    </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Best Practices on Structuring Technical Presentations </span> <br> <span
+                        class="w-date">25 Jul. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="i1_TXVXGWBk" layout="responsive" width="480" height="270"
+                  data-param-start="893" data-param-end="1062"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Women in AI Leadership Award </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Recognition by Analytics India Magazine</span> <br /> <span
+                        class="w-date">4 Jul. 2020</span>
+
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-videocam"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQTI8JQs0RJOogjeANcKgWuKTCJqU1ipfY2V1qPTb-QbV4dch1rcXdUnBXdY_OHPYR6_tvGaKD7gRSI/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Unconscious Bias Training" src="assets/img/work-9.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Unconscious Bias Training</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">What, Why and How of Unconscious Bias </span> <br> <span class="w-date">31
+                        Jan. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-                <div class="">
-                  <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4W0G1AN8dbSL-JJM4NIrN2nPHqj28q_hy8YZ9JoI7mvTn6EHzZZjS1ZKBEYE3N6WDQWgJXyEV_dM7/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vR4W0G1AN8dbSL-JJM4NIrN2nPHqj28q_hy8YZ9JoI7mvTn6EHzZZjS1ZKBEYE3N6WDQWgJXyEV_dM7/embed?start=false&loop=true&delayms=3000"  target="_blank">
+              <div class="">
+                <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4W0G1AN8dbSL-JJM4NIrN2nPHqj28q_hy8YZ9JoI7mvTn6EHzZZjS1ZKBEYE3N6WDQWgJXyEV_dM7/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vR4W0G1AN8dbSL-JJM4NIrN2nPHqj28q_hy8YZ9JoI7mvTn6EHzZZjS1ZKBEYE3N6WDQWgJXyEV_dM7/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
 
-                  <amp-img
-                          alt="Data Science 101 Workshop"
-                          src="assets/img/work-1.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Data Science 101 Workshop </h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Titanic Survivors Dataset using Pandas</span> <br/> <span class="w-date"> 26 Jan. 2019</span>
-                      </div>
+                  <amp-img alt="Data Science 101 Workshop" src="assets/img/work-1.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Science 101 Workshop </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Titanic Survivors Dataset using Pandas</span> <br /> <span class="w-date">
+                        26 Jan. 2019</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
                     </div>
                   </div>
                 </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-               <div class="">
-                 <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                  <amp-youtube
-                          data-videoid="uRgGmlGNQ80"
-                          layout="responsive"
-                          width="480"
-                          height="270"
-                          data-param-start="167"
-                  ></amp-youtube>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">IWD Bangalore 2018 Summit </h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Closing remarks on "Building a New Horizon"</span> <br/> <span class="w-date">24 Mar. 2018</span>
+              <div class="">
+                <!-- <iframe width="100%" height="200" src="https://www.youtube.com/embed/uRgGmlGNQ80?start=167" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="uRgGmlGNQ80" layout="responsive" width="480" height="270"
+                  data-param-start="167"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">IWD Bangalore 2018 Summit </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Closing remarks on "Building a New Horizon"</span> <br /> <span
+                        class="w-date">24 Mar. 2018</span>
 
-                      </div>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-videocam"></span>
                     </div>
                   </div>
                 </div>
-              </a>
-            </div>
-          </div>
-           <div class="col-md-4">
-            <div class="work-box">
-
-                <div class="">
-                  <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPWV0h8Tu2Fg0hJZy_Obv869RE8lSFYD2mjo95nHzMzJaPnP34RJwYrGL0Pr7oLTrxFPyl9rkTrdHG/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vQPWV0h8Tu2Fg0hJZy_Obv869RE8lSFYD2mjo95nHzMzJaPnP34RJwYrGL0Pr7oLTrxFPyl9rkTrdHG/embed?start=false&loop=true&delayms=3000"  target="_blank">
-                  <amp-img
-                          alt="Building Conversational Experiences"
-                          src="assets/img/work-3.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Conversational Experiences</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Spoke at GHCI 2018 on building conversational experiences</span>  <br><span class="w-date">15 Nov. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-                <div class="">
-                  <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoBlA_dgsVMQLZu1nL0cYwbfYR8bNLQTqXCMYs6r_KCcByIHOzQjRhnko2BB-4JPfsqhVOwjCBgJyr/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vQoBlA_dgsVMQLZu1nL0cYwbfYR8bNLQTqXCMYs6r_KCcByIHOzQjRhnko2BB-4JPfsqhVOwjCBgJyr/embed?start=false&loop=true&delayms=3000" target="_blank">
-                  <amp-img
-                          alt="Understanding Natural Language Processing"
-                          src="assets/img/work-4.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Understanding Natural Language Processing</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Introduced NLP concepts along with three use-cases</span> <br> <span class="w-date">06 Oct. 2018</span>
-                      </div>
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPWV0h8Tu2Fg0hJZy_Obv869RE8lSFYD2mjo95nHzMzJaPnP34RJwYrGL0Pr7oLTrxFPyl9rkTrdHG/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQPWV0h8Tu2Fg0hJZy_Obv869RE8lSFYD2mjo95nHzMzJaPnP34RJwYrGL0Pr7oLTrxFPyl9rkTrdHG/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Building Conversational Experiences" src="assets/img/work-3.jpg" width="480"
+                    height="270" layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Conversational Experiences</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Spoke at GHCI 2018 on building conversational experiences</span> <br><span
+                        class="w-date">15 Nov. 2018</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
                     </div>
                   </div>
                 </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-               <div class="">
-                  <!--<iframe width="100%" height="200px" src="https://www.youtube.com/embed/IFRnZc6qLw4?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                  <amp-youtube width="480" height="270" layout="responsive" data-videoid="IFRnZc6qLw4" data-param-start="5">
-                  </amp-youtube>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Introducing Women Techmakers Program</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory"> Speaking on how tech women in India can leverage the program</span> <br> <span class="w-date">30 Jun. 2017</span>
-                      </div>
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQoBlA_dgsVMQLZu1nL0cYwbfYR8bNLQTqXCMYs6r_KCcByIHOzQjRhnko2BB-4JPfsqhVOwjCBgJyr/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQoBlA_dgsVMQLZu1nL0cYwbfYR8bNLQTqXCMYs6r_KCcByIHOzQjRhnko2BB-4JPfsqhVOwjCBgJyr/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Understanding Natural Language Processing" src="assets/img/work-4.jpg" width="480"
+                    height="270" layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Understanding Natural Language Processing</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Introduced NLP concepts along with three use-cases</span> <br> <span
+                        class="w-date">06 Oct. 2018</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
                     </div>
                   </div>
                 </div>
-              </a>
-            </div>
-          </div>
-           <div class="col-md-4">
-            <div class="work-box">
-
-                <div class="">
-                  <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYyhvH6XmUF5qrnkNeBsq67uoGcl62l0Mb4_IiqhF61sQkz3Ixa_p48pgzeskWUyWEJxBqCkkywEaP/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vSYyhvH6XmUF5qrnkNeBsq67uoGcl62l0Mb4_IiqhF61sQkz3Ixa_p48pgzeskWUyWEJxBqCkkywEaP/embed?start=false&loop=true&delayms=3000" target="_blank"> <amp-img
-                          alt="Introduction to ML and Tensorflow"
-                          src="assets/img/work-6.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Introduction to ML and Tensorflow</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Workshop at IEEE Women in Leadership Summit 2017, Goa</span> <br> <span class="w-date">14 Jul. 2017</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-                <div class="">
-                  <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVp9_8O7AL2M00PHclwlbUcln2olgnAmkXX5uOXDfXsj3alt8b_YsB-jAeMlfzGcxKEDn4276OAN5k/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
-                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vTVp9_8O7AL2M00PHclwlbUcln2olgnAmkXX5uOXDfXsj3alt8b_YsB-jAeMlfzGcxKEDn4276OAN5k/embed?start=false&loop=true&delayms=3000" target="_blank">
-                  <amp-img
-                          alt="Design Sprint Workshop"
-                          src="assets/img/work-7.jpg"
-                          width="480"
-                          height="270"
-                          layout="responsive"
-                  >
-                  </amp-img></a>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Design Sprint Workshop</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Design Sprint using the "Booking a Cab on Android Wear" use-case</span> <br> <span class="w-date">04 Aug. 2017</span>
-                      </div>
+              <div class="">
+                <!--<iframe width="100%" height="200px" src="https://www.youtube.com/embed/IFRnZc6qLw4?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube width="480" height="270" layout="responsive" data-videoid="IFRnZc6qLw4"
+                  data-param-start="5">
+                </amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Introducing Women Techmakers Program</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory"> Speaking on how tech women in India can leverage the program</span> <br>
+                      <span class="w-date">30 Jun. 2017</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-videocam"></span>
                     </div>
                   </div>
                 </div>
+              </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
 
-                 <div class="">
-                  <!--<iframe width="100%" height="200px" src="https://www.youtube.com/embed/_uBaaKEWaW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                  <amp-youtube
-                          data-videoid="_uBaaKEWaW8"
-                          layout="responsive"
-                          width="480"
-                          height="270"
-                  ></amp-youtube>
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Journey with Technology</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">My Journey With Technology by Google Developers</span> <br> <span class="w-date">06 Dec. 2014</span>
-                      </div>
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYyhvH6XmUF5qrnkNeBsq67uoGcl62l0Mb4_IiqhF61sQkz3Ixa_p48pgzeskWUyWEJxBqCkkywEaP/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>-->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSYyhvH6XmUF5qrnkNeBsq67uoGcl62l0Mb4_IiqhF61sQkz3Ixa_p48pgzeskWUyWEJxBqCkkywEaP/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Introduction to ML and Tensorflow" src="assets/img/work-6.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Introduction to ML and Tensorflow</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Workshop at IEEE Women in Leadership Summit 2017, Goa</span> <br> <span
+                        class="w-date">14 Jul. 2017</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-mic"></span>
-                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
                     </div>
                   </div>
                 </div>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+
+              <div class="">
+                <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVp9_8O7AL2M00PHclwlbUcln2olgnAmkXX5uOXDfXsj3alt8b_YsB-jAeMlfzGcxKEDn4276OAN5k/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="200" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTVp9_8O7AL2M00PHclwlbUcln2olgnAmkXX5uOXDfXsj3alt8b_YsB-jAeMlfzGcxKEDn4276OAN5k/embed?start=false&loop=true&delayms=3000"
+                  target="_blank">
+                  <amp-img alt="Design Sprint Workshop" src="assets/img/work-7.jpg" width="480" height="270"
+                    layout="responsive">
+                  </amp-img>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Design Sprint Workshop</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Design Sprint using the "Booking a Cab on Android Wear" use-case</span>
+                      <br> <span class="w-date">04 Aug. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-mic"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+
+              <div class="">
+                <!--<iframe width="100%" height="200px" src="https://www.youtube.com/embed/_uBaaKEWaW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <amp-youtube data-videoid="_uBaaKEWaW8" layout="responsive" width="480" height="270"></amp-youtube>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Journey with Technology</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">My Journey With Technology by Google Developers</span> <br> <span
+                        class="w-date">06 Dec. 2014</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-videocam"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </a>
             </div>
           </div>
@@ -560,10 +1431,51 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/" target="_blank"><amp-img src="assets/img/post-1.jpg" alt="" class="img-fluid" layout="responsive" ></a>
+                <a href="https://www.blog.google/outreach-initiatives/diversity/how-women-techmakers-india-reimagined-their-iwd-event/"
+                  target="_blank">
+                  <amp-img src="assets/img/keyword.jpg" alt="" class="img-fluid" layout="responsive">
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Experience</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a
+                    href="https://www.blog.google/outreach-initiatives/diversity/how-women-techmakers-india-reimagined-their-iwd-event/"
+                    target="_blank">Women Techmakers India IWD Summit</a></h3>
+                <p class="card-description">
+                  A Google Keyword Blog on my thoughts on reorganizing an IWD Summit into a bigger online celebration.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a
+                    href="https://www.blog.google/outreach-initiatives/diversity/how-women-techmakers-india-reimagined-their-iwd-event/">
+                    <amp-img src="assets/img/rana.jpg" class="avatar rounded-circle" layout="responsive"></amp-img>
+                    <span class="author">
+                      <div style="margin-top:-2.3rem; padding-left:2.4rem"> Rana <br />Abdelhamid </div>
+                    </span>
+                  </a>
+                </div>
+                <br />
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 5 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/"
+                  target="_blank">
+                  <amp-img src="assets/img/post-1.jpg" alt="" class="img-fluid" layout="responsive">
+                </a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -571,16 +1483,21 @@
                     <h6 class="category">Conference</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/" target="_blank">Grace Hopper Conference - From a dream to reality</a></h3>
+                <h3 class="card-title"><a
+                    href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/"
+                    target="_blank">Grace Hopper Conference 2019</a></h3>
                 <p class="card-description">
                   My learnings from the largest women in technology conference in the world, GHC 2019.
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/">
+                  <a
+                    href="https://www.linkedin.com/pulse/grace-hopper-conference-dream-reality-lakshya-sivaramakrishnan/">
                     <amp-img src="assets/img/lakshya.jpg" class="avatar rounded-circle" layout="responsive"></amp-img>
-                    <span class="author"> <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div></span>
+                    <span class="author">
+                      <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div>
+                    </span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -589,10 +1506,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/" target="_blank"><amp-img src="assets/img/post-2.jpg" alt="" class="img-fluid" layout="responsive" /></a>
+                <a href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/"
+                  target="_blank">
+                  <amp-img src="assets/img/post-2.jpg" alt="" class="img-fluid" layout="responsive" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -600,16 +1519,22 @@
                     <h6 class="category">Workshop</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/" target="_blank">Machine Learning and Tensorflow</a></h3>
+                <h3 class="card-title"><a
+                    href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/"
+                    target="_blank">Machine Learning and Tensorflow</a></h3>
                 <p class="card-description">
                   Resources from a workshop on Machine Learning and Tensorflow using the MNIST dataset.
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/">
-                    <amp-img src="assets/img/lakshya.jpg" alt="" class="avatar rounded-circle"  layout="responsive"></amp-img>
-                    <span class="author"> <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div></span>
+                  <a
+                    href="https://www.linkedin.com/pulse/experience-having-women-tech-get-started-machine-sivaramakrishnan/">
+                    <amp-img src="assets/img/lakshya.jpg" alt="" class="avatar rounded-circle" layout="responsive">
+                    </amp-img>
+                    <span class="author">
+                      <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div>
+                    </span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -618,10 +1543,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://medium.com/@lakshyas/indias-women-in-technology-my-learnings-of-2017-661447d8dc99" target="_blank"><amp-img src="assets/img/post-3.jpg" alt=""  class="img-fluid" layout="responsive" /></a>
+                <a href="https://medium.com/@lakshyas/indias-women-in-technology-my-learnings-of-2017-661447d8dc99"
+                  target="_blank">
+                  <amp-img src="assets/img/post-3.jpg" alt="" class="img-fluid" layout="responsive" /></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -629,7 +1556,9 @@
                     <h6 class="category">Experience</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://medium.com/@lakshyas/indias-women-in-technology-my-learnings-of-2017-661447d8dc99" target="_blank">India’s Women In Tech: 2017 Learnings</a></h3>
+                <h3 class="card-title"><a
+                    href="https://medium.com/@lakshyas/indias-women-in-technology-my-learnings-of-2017-661447d8dc99"
+                    target="_blank">India’s Women In Tech: 2017 Learnings</a></h3>
                 <p class="card-description">
                   Taking up the role to manage the Women Techmakers program and the learning that came with it!
                 </p>
@@ -637,8 +1566,11 @@
               <div class="card-footer">
                 <div class="post-author">
                   <a href="https://medium.com/@lakshyas/indias-women-in-technology-my-learnings-of-2017-661447d8dc99">
-                    <amp-img src="assets/img/lakshya.jpg" alt="" class="avatar rounded-circle" layout="responsive"></amp-img>
-                    <span class="author"> <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div></span>
+                    <amp-img src="assets/img/lakshya.jpg" alt="" class="avatar rounded-circle" layout="responsive">
+                    </amp-img>
+                    <span class="author">
+                      <div style="margin-top:-2.3rem; padding-left:2.4rem"> Lakshya Sivaramakrishnan </div>
+                    </span>
                   </a>
                 </div>
                 <div class="post-date">
@@ -659,68 +1591,200 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/test-1.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Senthil Kumar Sankaran</span>
+            <!-- <amp-carousel width="50" height="37"  type="slides"  layout="responsive" controls loop autoplay delay="6000"> -->
+            <amp-carousel width="50" height="55" type="carousel" layout="fixed-height" controls loop autoplay
+              delay="6000">
+
+              <div id="testimonial-mf" class="owl-carousel owl-theme">
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/test-1.jpg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Senthil Kumar Sankaran</span>
+                    <p> General Manager at HCL Technologies </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      Lakshya likes to be challenged<br /> in new areas - be it<br /> technology or other areas,
+                      <br />enthusiastic
+                      to explore new things.<br /> Young Engineer who <br />quickly ramped on new <br />technologies,
+                      process and system,<br />
+                      became a subject matter<br /> specialist and a go to person<br /> on specific components that she
+                      owned.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --> <br /><br />
+                      <a href="https://www.linkedin.com/in/senthil-kumar-sankaran-03aa431/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+
+
+                  </div>
                 </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Lakshya likes to be challenged in new areas - be it technology or other areas, enthusiastic
-                    to explore new things. Young Engineer who quickly ramped on new technologies, process and system,
-                    became a subject matter specialist and a go to person on specific components that she owned.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/test-2.jpg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Ritu Srivastava</span>
+                    <p>Founder, Obino | <br />Tech entrepreneur & angel investor | <br />Speaker, blogger & ex-Radio
+                      Jockey |<br /> INK Fellow. </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      Lakshya is one of the <br />rare people who is warm <br />and efficient all at the <br />same
+                      time.
+                      A super-responsive<br /> professional and a <br />warm and friendly human being,<br /> Lakshya
+                      displays
+                      genuine respect and<br /> affection in her dealings<br /> with colleagues and is an <br />absolute
+                      pleasure
+                      to work with!
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br /><br />
+                      <a href="https://www.linkedin.com/in/ritu-srivastava-4649618/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/usha.jpeg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Usha Ramani Vemuru</span>
+                    <p> Co founder and CEO of GURUJADA </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      Lakshya is an amazing leader.<br /> Her leadership style is by doing.<br /> She passes on credit
+                      when <br />the team wins and owns up the<br />
+                      brickbats when something fails. <br />Doing a task ourselves is often<br /> easier than getting it
+                      done by a big <br />team, but her patience, planning,<br />
+                      execution, comradeship, and<br /> ownership of the task<br /> at hand are perfect.<br />
+                      I'm reminded of the analogy<br /> of a garland of flowers,<br /> the thread doesn't show at all,
+                      <br />but it is what pulls all the<br /> flowers together.<br />
+                      Her passion for women in tech, <br />helping them fight bias is incredible.<br /> Mark my words,
+                      she's a <br />great leader in the making.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br /><br />
+                      <a href="https://www.linkedin.com/in/usha-ramani-vemuru-66286723/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/ajina.jpeg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Dr Ajina Jaya</span>
+                    <p> Assistant Professor at Sir MVIT </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      Lakshya is a modest, <br />lively and soft spoken <br />student. She respects her <br />peers and
+                      professors alike <br />and is well mannered.<br />
+                      She has been an outstanding <br />student as well as consistent<br /> in her determination to
+                      improve<br /> her skills and knowledge.<br />
+                      She is a well-rounded<br /> person being excellent in both<br /> academic and
+                      extra-curricular<br /> activities.
+                      She is an<br /> excellent team player, <br />offers help to others and <br />always open to have a
+                      discussion.<br />
+                      Her ability to collaborate<br /> with her teammates have<br /> been remarkable.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br /><br />
+                      <a href="https://www.linkedin.com/in/dr-a-ajina-jaya-985597a2/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/vishwa.jpeg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Vishwa Singh</span>
+                    <p> Senior Software Engineer at Informatica </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      It was an honor for<br /> me to work with you on <br />the SDLP project. Your <br />insights on
+                      existing solution <br />really saved us a lot of time.<br />
+                      Your effort in arranging KT<br /> sessions with members<br /> of other teams was fabulous.
+                      <br />Your positive attitude towards <br />taking up
+                      challenges and <br />delivering before time was<br /> the most notable thing.<br /> Your efforts
+                      to precisely complete<br /> the Documentation
+                      must not pass<br /> unappreciated. Wishing you best <br />for future and really looking<br />
+                      forward to work with you again.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br /><br />
+                      <a href="https://www.linkedin.com/in/vishwa-singh/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/advaita.jpeg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Advaita Shyam Sunder</span>
+                    <p> Blogger and Freelance Writer</p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      Lakshya was a diligent student<br /> and perspicacious too. <br />She was an all-rounder and
+                      <br />participated in all<br />
+                      the extra-curricular activities<br /> with sheer interest. <br />As a leader, she was <br />highly
+                      cooperative and apt at<br />
+                      delegating tasks to the <br />team members in school projects.<br /> She is a fluent orator and
+                      <br />grasps new concepts easily.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br /><br />
+                      <a href="https://www.linkedin.com/in/advaita-shyam-sunder-9829b554/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <amp-img src="assets/img/sridhar.jpeg" alt="" width="150" height="150"
+                      class="rounded-circle b-shadow-a"></amp-img>
+                    <span class="author">Sridhar Jammalamadaka</span>
+                    <p> Freelance Consultant and Trainer. <br />Ex-Oracle, Alum of IIIT Bangalore <br />and IIM-Indore.
+                    </p>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" align="center">
+                      I worked with Lakshya in IIITB.<br /> We were in the same team in a technical<br /> project and in
+                      Student Activity Center,<br />
+                      which was a leadership <br />team responsible for handling <br />student activities in the
+                      university.<br /> Lakshya is a natural
+                      leader, <br />she leads by example.<br /> In multiple instances, <br />she had silently supported
+                      the team <br />in the background and<br />
+                      proved to be the backbone of the team.<br /> She puts her best efforts as a <br />team member. She
+                      maintains friendly<br />
+                      relationship with the team <br />and keeps the meetings upbeat with <br />optimism and cheer.
+                      Technically, <br />she is a
+                      detail oriented person,<br /> who takes great care in ensuring <br />that the developed software
+                      conforms <br />to the given
+                      requirement. <br />She is a quick learner<br /> and is a person who is willing to <br />work hard
+                      without complaining.<br />
+                      She can communicate effectively <br />and her strength is her people skills.<br /> She could
+                      connect with so many<br />
+                      people in the university <br />including peers, juniors, sub-juniors <br />and seniors. I would
+                      highly<br /> recommend her
+                      for a <br />technical or managerial role <br />as she is good at both.
+                    </p>
+                    <span>
+                      <!-- <i class="fa fa-quote-right"></i> --><br />
+                      <a href="https://www.linkedin.com/in/sridharjammalamadaka/" target="_blank"><i
+                          class="comit ion-social-linkedin"></i></a></li>
+                    </span>
+                  </div>
                 </div>
               </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/test-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Ritu Srivastava</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Lakshya is one of the rare people who is warm and efficient all at the same time.
-                    A super-responsive professional and a warm and friendly human being, Lakshya displays
-                    genuine respect and affection in her dealings with colleagues and is an absolute pleasure
-                    to work with!
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/usha.jpeg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Usha Ramani Vemuru</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Lakshya is an amazing leader. Her leadership style is by doing. She passes on credit when the team wins and owns up the
-                    brickbats when something fails. Doing a task ourselves is often easier than getting it done by a big team, but her patience, planning, execution, comradeship, and ownership of the task at hand are perfect.
-                    I'm reminded of the analogy of a garland of flowers, the thread doesn't show at all, but it is what pulls all the flowers together.
-                    Her passion for women in tech, helping them fight bias is incredible. Mark my words, she's a great leader in the making.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/ajina.jpeg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Dr Ajina Jaya</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Lakshya is a modest, lively and soft spoken student. She respects her peers and professors alike and is well mannered.
-                    She has been an outstanding student as well as consistent in her determination to improve her skills and knowledge.
-                    She is a well-rounded person being excellent in both academic and extra-curricular activities.
-                    She is an excellent team player, offers help to others and always open to have a discussion.
-                    Her ability to collaborate with her teammates have been remarkable.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-            </div>
+            </amp-carousel>
           </div>
         </div>
       </div>
@@ -728,417 +1792,824 @@
 
 
     <!-- ======= Services Section ======= -->
-        <section id="service" class="services-mf route">
-          <div class="container">
+    <section id="gallery" class="services-mf route">
+      <div class="container">
 
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="title-box text-center">
-                  <h3 class="title-a">
-                    Gallery
-                  </h3>
-                  <p class="subtitle-a">
-                    My Travel Diaries, My Favourite Moments and some Happy Times :)
-                  </p>
-                  <div class="line-mf"></div>
-                </div>
-              </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Gallery
+              </h3>
+              <p class="subtitle-a">
+                My Travel Diaries, My Favourite Moments and some Happy Times :)
+              </p>
+              <div class="line-mf"></div>
             </div>
+          </div>
+        </div>
 
 
 
-               <amp-carousel width="400" height="300"  type="slides"  controls loop autoplay delay="3000">
-                <div class=" owl-carousel owl-theme services-carousel">
+        <amp-carousel width="50" height="55" type="carousel" layout="fixed-height" controls loop autoplay delay="3000">
+          <div class=" owl-carousel owl-theme services-carousel">
 
-              <div class="col-sm">
+            <div class="col-sm">
               <div class="services-block">
 
-                <amp-img src="assets/img/a.jpg"   width="400" height="300" layout="responsive"></amp-img>
-                <span>Online Safety Hackathon, Dubai, 2020</span>
+                <amp-img src="assets/img/dev.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">DevFest Keynote, <br />India, 2020</span>
 
 
               </div>
-              </div>
-
-              <div class="col-sm">
-                <div class="services-block">
-
-                  <amp-img src="assets/img/b.jpg" width="400" height="300" layout="responsive"></amp-img>
-                  <span>Grace Hopper, Orlando, 2019</span>
-
-
-                </div>
-              </div>
-
-              <div class="col-sm">
-                <div class="services-block">
-
-                  <amp-img src="assets/img/l.jpg" width="400" height="300" layout="responsive"></amp-img>
-                  <span>SEA Community Summit, Bangkok, 2019</span>
-
-
-                </div>
-              </div>
-
-              <div class="col-sm">
-                <div class="services-block">
-
-                  <amp-img src="assets/img/p.jpg" width="400" height="300" layout="responsive"></amp-img>
-                  <span>Community Summit, Bangalore, 2019</span>
-
-
-                </div>
-              </div>
-
-              <div class="col-sm">
-                <div class="services-block">
-
-                  <amp-img src="assets/img/r.jpg" width="400" height="300" layout="responsive"></amp-img>
-                  <span>GHC Graffiti Wall, Orlando, 2019 </span>
-
-
-                </div>
-              </div>
-
-              <div class="col-sm">
-                <div class="services-block">
-
-                  <amp-img src="assets/img/u.jpg" width="400" height="300" layout="responsive"></amp-img>
-                  <span>DSC Leads Summit, Goa, 2019</span>
-
-
-                </div>
-              </div>
-                <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/x.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM Ambassadors @ IWD, Bangalore, 2019 </span>
-                    </div>
-                </div>
-
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/xy.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Speaker at WiDS Conf, Bangalore, 2019 </span>
-
-
-                    </div>
-                  </div>
-
-
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ab.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Hosting IWD Summit, Bangalore, 2019</span>
-
-
-                    </div>
-                  </div>
-
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/al.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>First tech talk in Tamil, Madurai, 2019</span>
-
-
-                    </div>
-                  </div>
-
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/g.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Google for India, New Delhi, 2018</span>
-
-
-                    </div>
-                  </div>
-
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/h.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Keynote at DevFest, Pune, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/i.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>PyCon India, Hyderabad, 2018</span>
-
-
-                    </div>
-                  </div><div class="col-sm">
-                  <div class="services-block">
-
-                    <amp-img src="assets/img/j.jpg" width="400" height="300" layout="responsive"></amp-img>
-                    <span>Devfest Lounge, Bangalore, 2018</span>
-
-
-                  </div>
-                </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/k.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Making Bhajis at Bridge, Boulder, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/m.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM Reception @ IO, Mountain View, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/v.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Rajan Anandan @ TiE Summit, Delhi, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/w.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Announcing WTM India Site, Bangalore, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/y.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Team Offsite, Sri Lanka, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/aa.jpg"  width="400" height="300" layout="responsive"></amp-img>
-                      <span>Cloud Summit, Bangalore, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ac.jpg"  width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM Reception @ GHCI, Bangalore, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/af.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM India @ IO, Mountain View, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/aj.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM IWD Summit, Bangalore, 2018</span>
-
-
-                    </div>
-                  </div><div class="col-sm">
-                  <div class="services-block">
-
-                    <amp-img src="assets/img/ak.jpg" width="400" height="300" layout="responsive"></amp-img>
-                    <span>Bridge Summit, Boulder, 2018</span>
-
-
-                  </div>
-                </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/am.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Maiden ERG Summit, Bangalore, 2018</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/d.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM Leads @ GDG Summit, Goa, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/e.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>GDG Community Summit, Goa, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/f.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Photo Booth @ IWD, Bangalore, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/n.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM Reception @ IO, Mountain View, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/o.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Team @ Solve For India, Hyderabad, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/q.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Receiving DEI Award, Bangalore, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/t.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>GDD's WTM Reception, Bangalore, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/z.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Team Offsite, Munnar, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ad.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>WTM IWD Summit, Bangalore, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ae.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>First WTM Summit, Bangalore, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ag.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>GDG Community Summit, Goa, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ah.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Presenting in Solve for India, Mumbai, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/ai.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>Tech talk @ DevFest, Kozhikode, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/an.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>With Sheryl Sandberg, Menlo Park, 2017</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/c.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>GDG Community Summit, Goa, 2016</span>
-
-
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="services-block">
-
-                      <amp-img src="assets/img/s.jpg" width="400" height="300" layout="responsive"></amp-img>
-                      <span>My first GHCI ever, Bangalore, 2016</span>
-
-
-                    </div>
-                  </div>
-
-
-
-              </div>
-                </amp-carousel>
             </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/wica.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Women in Corporate Allies - <br /> Emerging Diversity Champion, <br /> India,
+                  2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/wids.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Speaker at WiDS Mysuru <br /> on Fairness in ML, India, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/pycon.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">PyCon, India, 2020</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ted.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">TEDx IIIT Bangalore,<br /> India, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/127_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Prayogshaala Launch,<br /> India, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/wwc.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Women Who Code Connect,<br /> India, 2020</span>
+
+
+              </div>
+            </div>
+
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/aaa.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Women in AI Leadership <br />Award, India, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/llag.jpeg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Lead Like a Girl <br />Fellow, India, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/iwd.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM IWD India Summit,<br /> India, 2020</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/126.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Leanin Connect with<br /> Rachel Thomas,<br /> Bangalore, 2020</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/a.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Online Safety Hackathon,<br /> Dubai, 2020</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/125_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Cloud Community Summit<br /> Ahmedabad, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/124.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM ERG Summit,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/123_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM GHCI Reception,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/120.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Devfest Closing Keynote,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/122_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GHC WTM Reception,<br /> Orlando, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/121_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">With Jeff Dean @ GHC,<br /> Orlando, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/r.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GHC Graffiti Wall,<br /> Orlando, 2019 </span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/b.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Grace Hopper, <br />Orlando, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/117_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Google Developers Space,<br /> Singapore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/l.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">SEA Community Summit,<br /> Bangkok, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/p.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Community Summit,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/119_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Tech Talk @ Wipro,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/u.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">DSC Leads Summit,<br /> Goa, 2019</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/118_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Training @ Wipro ,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/112.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Tech Talk @ Netapp,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/113.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Women Who Code Connect,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/x.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM Ambassadors @ IWD, <br />Bangalore, 2019 </span>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/xy.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Speaker at WiDS Conf,<br /> Bangalore, 2019 </span>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ab.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Hosting IWD Summit,<br /> Bangalore, 2019</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/al.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">First tech talk in Tamil,<br /> Madurai, 2019</span>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/k.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Making Bhajis at Bridge,<br /> Boulder, 2018</span>
+
+
+              </div>
+            </div>
+
+
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ak.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Bridge Summit,<br /> Boulder, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ac.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM Reception @ GHCI,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/am.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Maiden ERG Summit,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/110_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Speaker at GHCI,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/111.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Panel Discussion at Nasdaq,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/aa.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Cloud Summit, <br />Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/g.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Google for India,<br /> New Delhi, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/h.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Keynote at DevFest, <br />Pune, 2018</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/i.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">PyCon India,<br /> Hyderabad, 2018</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/j.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Devfest Lounge,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/v.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Rajan Anandan @ <br />TiE Summit, Delhi, 2018</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/w.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Announcing WTM India<br /> Site, Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/y.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Team Offsite,<br /> Sri Lanka, 2018</span>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/115.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Tech Talk for <br />Women Who Code,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/107.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Team Dinner,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/af.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM India @ IO, <br />Mountain View, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/m.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM Reception @ IO,<br /> Mountain View, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/aj.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM IWD Summit,<br /> Bangalore, 2018</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/d.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM Leads @ GDG Summit,<br /> Goa, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/e.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GDG Community Summit,<br /> Goa, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/f.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Photo Booth @ IWD,<br /> Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/o.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Team @ Solve For India,<br /> Hyderabad, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/q.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Receiving DEI Award,<br /> Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/t.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GDD's WTM Reception,<br /> Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/z.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Team Offsite, <br />Munnar, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ad.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM IWD Summit,<br /> Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ae.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">First WTM Summit,<br /> Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ag.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GDG Community Summit,<br /> Goa, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ah.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Presenting in Solve <br />for India, Mumbai, 2017</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/ai.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Tech talk @ DevFest, <br />Kozhikode, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/n.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">WTM Reception @ IO,<br /> Mountain View, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/an.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">With Sheryl Sandberg,<br /> Menlo Park, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/108_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">First Video Interview<br /> @ Google, Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/131_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Spandan Women's <br />Basketball Champions <br />Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/116.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">IIITB Alumni Day<br /> with Yashwant Kanetkar, <br />Bangalore, 2017</span>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/c.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">GDG Community Summit,<br /> Goa, 2016</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/s.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">My first GHCI ever, <br />Bangalore, 2016</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/101_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Google I/O <br />Mountain View, 2016</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/130_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Best Cricket Team,<br /> HPL @ GE Healthcare <br />Bangalore, 2016</span>
+
+
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/109.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Video Recording by <br />Google Developers <br />Bangalore, 2015</span>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/128.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">IIITB Graduation Day <br />Bangalore, 2014</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/129_.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">South East Asia Workshop <br />in Computing, Singapore, 2013</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/106.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Paper Presentation @ SIT, <br />Tumkur, 2010</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/105.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Ethical Hacking Workshop <br />@ IITM's Shaastra, <br />Madras, 2009</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/104.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Paper Presentation<br /> @ IITM's Shaastra, <br />Madras, 2008</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/103.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Mount Carmel II PUC <br />Graduation, Bangalore, 2008</span>
+
+
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="services-block">
+
+                <amp-img src="assets/img/102.jpg" width="400" height="300" layout="responsive"></amp-img>
+                <span align="center">Kensri's Best Outgoing<br /> Student , Bangalore, 2006</span>
+
+
+              </div>
+            </div>
+
 
 
           </div>
-        </section> <!-- End Services Section -->
+        </amp-carousel>
+      </div>
+
+
+      </div>
+    </section> <!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -1155,33 +2626,71 @@
                         Get in Touch
                       </h5>
                     </div>
-                    <div class="more-info">
-                      <p class="lead">
-                      If you want to chat with me, feel free to drop me an email and I'll get back to you.<br/><br/>
-                        I could talk to you about technology, community building, diversity and inclusion, travelling, sports and more!
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> Bengaluru, India</li>
-                        <li><span class="ion-email"></span><a href="mailto:lakshya90@gmail.com">lakshya90@gmail.com</a> </li>
-                      </ul>
+                    <div class="row">
+                      <div class="col-lg-4" data-aos="fade-right">
+                        <amp-img src="assets/img/lak2.jpg" width="300" height="275" layout="responsive"
+                          class="img-fluid rounded-circle b-shadow-a" alt="" />
+
+                      </div>
+
+
+                      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+
+                        <p class="lead">
+                          Lakshya Sivaramakrishnan is a Technical Program Manager at Google with the Payments
+                          Merchant team. She has managed the Women Techmakers Program in India for about five years, 
+                          prior to this role. She has founded the Prayogshaala program which is a one week online bootcamp to 
+                          nurture young women in technology. She has received the "Women in AI Leadership Award" by 
+                          Analytics India Magazine and the "Women in Corporate Allies - Emerging Diversity Champion Award" 
+                          by Women's Web in 2020. She is a TEDx speaker and a Shenomics "Lead Like a Girl Fellow". 
+                          She enjoys nurturing communities and empowering women to join, thrive, and lead
+                          in the tech industry.
+                        </p>
+                        <p class="lead">
+                          Prior to Google, she has been a Consultant with Cerner Healthcare and Software
+                          Engineer at GE Healthcare. She also holds a GE Analytics India Certification and is an
+                          #IAmRemarkable facilitator. She has delivered 225+ talks and workshops on technical topics and
+                          applied skills as a part of communities, institutes and organisations. She has completed her
+                          Masters in Information Technology from International Institute of Information Technology,
+                          Bangalore and Bachelors in Computer Science from Sir M Visvesvaraya Institute of Technology.
+                        </p>
+
+                      </div>
                     </div>
+
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Bengaluru, India</li>
+                      <li><span class="ion-email"></span><a href="mailto:lakshya90@gmail.com">lakshya90@gmail.com</a>
+                      </li>
+                    </ul>
+
                     <div class="socials">
                       <ul>
-                        <li><a href="https://www.linkedin.com/in/lakshyasi/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                        <li><a href="https://twitter.com/lakshyas90" target="_blank"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href="https://github.com/lakshya90/" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/lakshyasi/" target="_blank"><span class="ico-circle"><i
+                                class="ion-social-linkedin"></i></span></a></li>
+                        <li><a href="https://twitter.com/lakshyas90" target="_blank"><span class="ico-circle"><i
+                                class="ion-social-twitter"></i></span></a></li>
+                        <li><a href="https://github.com/lakshya90/" target="_blank"><span class="ico-circle"><i
+                                class="ion-social-github"></i></span></a></li>
 
                       </ul>
                     </div>
 
+
                   </div>
+                </div>
 
               </div>
+
             </div>
           </div>
+        </div>
 
       </div>
     </section><!-- End Contact Section -->
+
+
+
 
   </main><!-- End #main -->
 
